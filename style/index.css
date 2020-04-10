@@ -1,0 +1,142 @@
+/* VARIABLES */
+:root {
+  --primary-color: #009ece;
+  --secondary-color: #161616;
+  --third-color: #b3b3b3;
+}
+
+/* NAVBAR Y FOOTER */
+.navbar {
+  padding: 0rem 1rem;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  background: white;
+  width: 100%;
+}
+nav ul {
+  margin: 0 auto;
+}
+
+.navbar-brand {
+  margin-left: 2rem;
+}
+.nav-item {
+  padding-right: 0.4rem !important;
+  padding-left: 0.4rem !important;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  color: var(--third-color);
+  transition: 0.12s ease-in;
+}
+.nav-link:hover {
+  color: var(--secondary-color);
+}
+
+.footer {
+  background: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  position: fixed;
+  /* left: 0; por default venia en 0*/
+  bottom: 0;
+  width: 100%;
+  padding: 2rem 1rem;
+  z-index: 3;
+}
+
+.footer .col-md-3,
+.footer .col-md-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footer .col-md-3 h1 {
+  font-size: 1.2rem;
+}
+.footer i {
+  color: white;
+  margin-right: 0.5rem;
+}
+.footer .col-md-4 h1 {
+  font-size: 1.7rem;
+}
+
+/* SECTION 1: HERO REFERENTES  */
+#section-referentes {
+  margin-top: 198px; /* Para prevenir content overlay */
+}
+.referentes {
+  position: relative;
+}
+.referentes .col-md-3 {
+  padding: 0 0rem;
+}
+.referentes img {
+  width: 100%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: 0.15s;
+}
+
+.referentes img:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+
+.referentes .col-md-3:nth-child(1) img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.hero-frase {
+  position: absolute;
+  bottom: 15.5%;
+  left: 2%;
+  z-index: 2;
+  font-size: 5.8rem;
+  color: var(--primary-color);
+}
+
+/* SECTION2 - QUIENES SOMOS */
+.row-title {
+  margin: 2rem 0 0 0;
+}
+.title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 0.2rem;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  color: var(--third-color);
+}
+
+.principios-top {
+  margin: 2.5rem 0 0rem 0;
+}
+
+.principios-top h1 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+#section-quienes-somos .container-fluid {
+  background-color: var(--third-color);
+}
+.pricipios-bottom {
+  margin: 1rem 0 0 0;
+}
+.principios-bottom p {
+  font-size: 1rem;
+  color: var(--secondary-color);
+}
+.principios-bottom a {
+  font-size: 0.9rem;
+  color: var(--primary-color);
+}
