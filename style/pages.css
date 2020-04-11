@@ -4,6 +4,15 @@
 #bases {
   margin: 198px 0 102px 0;
 }
+#bases .nav-tabs {
+  border-bottom: 1px solid #dee2e6;
+  justify-content: center;
+  margin: 220px 0 0 0;
+}
+#bases .nav-link {
+  color: var(--secondary-color);
+  font-family: grotesk-bold;
+}
 
 .title {
   font-family: "grotesk-medium";
