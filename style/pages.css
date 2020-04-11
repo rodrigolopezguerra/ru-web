@@ -1,0 +1,68 @@
+/* AQUI VAN TODOS LOS ESTILOS PARA CADA UNA DE LAS SUB-PAGINAS DEL SITIO */
+
+/* PAGES BASES */
+#bases {
+  margin: 198px 0 102px 0;
+}
+
+.title {
+  font-family: "grotesk-medium";
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin: 3rem 0 1.5rem 0;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: var(--third-color);
+  font-family: "grotesk-medium";
+  margin-bottom: 1.5rem;
+}
+
+.text {
+  font-family: "grotesk-regular";
+  margin-bottom: 1.5rem;
+}
+
+.invitacion {
+  font-family: "grotesk-medium";
+  font-size: 1.6rem;
+  color: var(--primary-color);
+  margin: 0.8rem 0 3rem 0;
+}
+
+.title2 {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  font-family: "grotesk-medium";
+  margin-bottom: 1.5rem;
+  text-align: center !important;
+}
+
+/* PAGE REFERENTE */
+#referente {
+  margin: 198px 0 150px 0;
+}
+#referente img {
+  width: 100%;
+}
+.title-referente {
+  font-family: "grotesk-bold";
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin: 3rem 0 1.5rem 0;
+}
+
+.descripcion-referente {
+  font-size: 1rem;
+  color: var(--third-color);
+  font-family: "grotesk-medium";
+  margin-bottom: 1.5rem;
+}
+
+#referente i {
+  color: var(--primary-color);
+  margin: 1rem 0.7rem 0 0;
+  font-size: 1.2rem;
+}
