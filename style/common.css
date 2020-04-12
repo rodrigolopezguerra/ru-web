@@ -90,7 +90,6 @@ nav ul {
   z-index: 3;
   box-shadow: var(--box-shadow-main);
   font-family: "grotesk-medium", "Helvetica";
-  margin: 0;
 }
 
 .footer .col-md-3,
