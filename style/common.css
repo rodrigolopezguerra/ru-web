@@ -26,6 +26,9 @@
   font-weight: bold;
 }
 
+.mobile-in {
+  display: none;
+}
 a:hover {
   text-decoration: none;
 }
@@ -63,7 +66,7 @@ nav ul {
   transition: 0.12s ease-in;
 }
 .nav-link:hover {
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
 }
 
 .navbar-text {
@@ -118,4 +121,13 @@ nav ul {
 .espejada {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
+}
+
+@media (max-width: 768px) {
+  .mobile-in {
+    display: block;
+  }
+  .mobile-out {
+    display: none;
+  }
 }
