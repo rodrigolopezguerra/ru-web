@@ -41,6 +41,9 @@ a:hover {
   height: 92px;
   box-shadow: var(--box-shadow-main);
 }
+.navbar-light {
+  background: white !important;
+}
 nav ul {
   margin: 0 auto;
 }
@@ -60,7 +63,7 @@ nav ul {
   transition: 0.12s ease-in;
 }
 .nav-link:hover {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .navbar-text {
