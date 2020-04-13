@@ -98,3 +98,25 @@
 #section-nuestros-valores {
   margin: 4rem 0 13rem 0;
 }
+
+/* MEDIA QUERIES RESPONSIVE */
+@media (max-width: 768px) {
+  #section-quienes-somos {
+    margin: 2rem 0 0rem 0;
+  }
+  .col-12 {
+    text-align: center;
+  }
+  .principios {
+    margin: 2.5rem 0 0rem 0;
+  }
+  .principios a {
+    margin-bottom: 1.3rem;
+  }
+  .subtitle {
+    margin: 1rem 0 0rem 0;
+  }
+  #section-nuestros-valores {
+    margin: 2.5rem 0 8rem 0;
+  }
+}

@@ -130,4 +130,10 @@ nav ul {
   .mobile-out {
     display: none;
   }
+  .puntos-naranja {
+    display: none;
+  }
+  .footer {
+    height: 90px;
+  }
 }

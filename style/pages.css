@@ -75,3 +75,31 @@
   margin: 1rem 0.7rem 0 0;
   font-size: 1.2rem;
 }
+
+/* MEDIA QUERIES MOBILE */
+@media (max-width: 768px) {
+  #bases .subtitle {
+    text-align: center;
+  }
+  #bases .title {
+    font-size: 1.6rem;
+  }
+  #bases .title2 {
+    font-size: 1.2rem;
+  }
+  #referente {
+    margin: 92px 0 150px 0;
+  }
+  .title-referente {
+    margin: 1.5rem 0 1.5rem 0;
+    text-align: center;
+  }
+  .descripcion-referente {
+    margin: 1rem;
+    text-align: justify;
+  }
+  .redes-referente .col-md-3 {
+    display: flex;
+    justify-content: center;
+  }
+}
