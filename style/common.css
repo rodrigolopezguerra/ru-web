@@ -25,7 +25,9 @@
   src: url(../style/font/NHaasGroteskTXPro-75Bd.ttf);
   font-weight: bold;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .mobile-in {
   display: none;
 }

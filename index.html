@@ -86,7 +86,7 @@
           id="carouselExampleControls"
           class="carousel slide mobile-out"
           data-ride="carousel"
-          data-interval="2400"
+          data-interval="2600"
           data-pause="hover"
         >
           <div class="carousel-inner">
@@ -242,13 +242,13 @@
           </a>
         </div>
 
-        <!-- prueba carousel mobile -->
+        <!--  carousel mobile -->
 
         <div
           id="carouselExampleControls"
           class="carousel slide mobile-in"
           data-ride="carousel"
-          data-interval="2500"
+          data-interval="2600"
           data-pause="hover"
         >
           <div class="carousel-inner">
@@ -385,6 +385,9 @@
           </div>
         </div>
 
+        <div class="row">
+          <a class="scroll-button mobile-out" address="true"></a>
+        </div>
         <div class="row footer" style="margin: 0;">
           <div class="col-md-3">
             <a href="https://www.instagram.com/uni2argentina/" target="_blank"
@@ -408,7 +411,7 @@
 
     <!-- SECTION2: QUE NOS HACE DISTINTOS -->
 
-    <section id="section-quienes-somos">
+    <section id="section-quienes-somos" class="section-quienes-somos">
       <div class="container">
         <div class="row row-title">
           <div class="col-md-6 col-12">
@@ -522,6 +525,14 @@
       gtag("js", new Date());
 
       gtag("config", "UA-163446484-1");
+    </script>
+    <script>
+      const scrollButton = document.querySelector(".scroll-button");
+      const quienesSomos = document.querySelector("#section-quienes-somos");
+
+      scrollButton.addEventListener("click", function () {
+        quienesSomos.scrollIntoView();
+      });
     </script>
   </body>
 </html>
