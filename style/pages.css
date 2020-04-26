@@ -4,6 +4,9 @@
 #bases {
   margin: 92px 0 100px 0;
 }
+#bases .row {
+  text-align: justify;
+}
 #bases .nav-tabs {
   border-bottom: 1px solid #dee2e6;
   justify-content: center;
