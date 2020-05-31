@@ -79,6 +79,13 @@
   font-size: 1.2rem;
 }
 
+.box-part{
+ /* background:#FFF; */
+  border-radius:0;
+  padding:20px 10px;
+  margin:20px 0px;
+}
+
 /* MEDIA QUERIES MOBILE */
 @media (max-width: 768px) {
   #bases .subtitle {
