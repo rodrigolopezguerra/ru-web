@@ -1,0 +1,45 @@
+/* PAGE REFERENTE */
+#referente {
+  margin: 5% 0 150px 0;
+}
+#referente img {
+  width: 100%;
+}
+.title-referente {
+  font-family: "grotesk-bold";
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin: 3rem 0 1.5rem 0;
+}
+
+.descripcion-referente {
+  font-size: 1rem;
+  color: var(--third-color);
+  font-family: "grotesk-medium";
+  margin-bottom: 1rem;
+}
+
+#referente i {
+  color: var(--primary-color);
+  margin: 1rem 0.7rem 0 0;
+  font-size: 1.2rem;
+}
+
+/* MEDIA QUERIES MOBILE */
+@media (max-width: 768px) {
+  #referente {
+    margin: 92px 0 150px 0;
+  }
+  .title-referente {
+    margin: 1.5rem 0 1.5rem 0;
+    text-align: center;
+  }
+  .descripcion-referente {
+    margin: 1rem;
+    text-align: justify;
+  }
+  .redes-referente .col-md-3 {
+    display: flex;
+    justify-content: center;
+  }
+}

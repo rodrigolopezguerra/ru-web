@@ -1,6 +1,6 @@
 /* AQUI VAN TODOS LOS ESTILOS PARA CADA UNA DE LAS SUB-PAGINAS DEL SITIO 
 
-EDIT: Luego Ir migrando cada page a su propio css. Ya lo hice con quienes-somos
+EDIT: Luego Ir migrando cada page a su propio css, excepto quizas los titulos y demas generalidades. Ya lo hice con quienes-somos.css y referentes.css
 */
 
 /* PAGES BASES */
@@ -53,33 +53,6 @@ EDIT: Luego Ir migrando cada page a su propio css. Ya lo hice con quienes-somos
   font-family: "grotesk-medium";
   margin-bottom: 1.5rem;
   text-align: center !important;
-}
-
-/* PAGE REFERENTE */
-#referente {
-  margin: 5% 0 150px 0;
-}
-#referente img {
-  width: 100%;
-}
-.title-referente {
-  font-family: "grotesk-bold";
-  font-size: 2rem;
-  color: var(--primary-color);
-  margin: 3rem 0 1.5rem 0;
-}
-
-.descripcion-referente {
-  font-size: 1rem;
-  color: var(--third-color);
-  font-family: "grotesk-medium";
-  margin-bottom: 1rem;
-}
-
-#referente i {
-  color: var(--primary-color);
-  margin: 1rem 0.7rem 0 0;
-  font-size: 1.2rem;
 }
 
 /* MEDIA QUERIES MOBILE */

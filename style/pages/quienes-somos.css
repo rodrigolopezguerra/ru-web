@@ -1,17 +1,65 @@
 /* QUIENES SOMOS */
-.quienes-somos-bases {
-  margin: 92px 0 0 0 !important;
+
+#quienes-somos {
+  margin: 92px 0 0 0;
+}
+#quienes-somos .row {
+  text-align: justify;
+}
+#quienes-somos .nav-tabs {
+  border-bottom: 1px solid #dee2e6;
+  justify-content: center;
+  margin: 130px 0 0 0;
+}
+#quienes-somos .nav-link {
+  color: var(--secondary-color);
+  font-family: grotesk-bold;
 }
 
-#quienes-somos-referentes img {
+#referentes {
+  margin: 0 0 10px 0;
+}
+#referentes img {
   width: 100%;
 
   padding: 0.5rem;
 }
-#quienes-somos-referentes .col-md,
-#quienes-somos-referentes .col-6 {
+#referentes .col-md,
+#referentes .col-6 {
   padding: 0;
 }
-#quienes-somos-referentes .row:nth-child(4) {
+#referentes .row:nth-child(4) {
   justify-content: center;
+}
+
+#cta {
+  text-align: center;
+  margin: 20px 0 100px 0;
+}
+
+@media (max-width: 768px) {
+  #quienes-somos .subtitle {
+    text-align: center;
+  }
+  #quienes-somos .title {
+    font-size: 1.6rem;
+  }
+  #quienes-somos .title2 {
+    font-size: 1.2rem;
+  }
+  #referente {
+    margin: 92px 0 150px 0;
+  }
+  .title-referente {
+    margin: 1.5rem 0 1.5rem 0;
+    text-align: center;
+  }
+  .descripcion-referente {
+    margin: 1rem;
+    text-align: justify;
+  }
+  .redes-referente .col-md-3 {
+    display: flex;
+    justify-content: center;
+  }
 }
