@@ -1,0 +1,17 @@
+/* QUIENES SOMOS */
+.quienes-somos-bases {
+  margin: 92px 0 0 0 !important;
+}
+
+#quienes-somos-referentes img {
+  width: 100%;
+
+  padding: 0.5rem;
+}
+#quienes-somos-referentes .col-md,
+#quienes-somos-referentes .col-6 {
+  padding: 0;
+}
+#quienes-somos-referentes .row:nth-child(4) {
+  justify-content: center;
+}
