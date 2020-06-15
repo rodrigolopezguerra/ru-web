@@ -1,6 +1,6 @@
 /* SECTION 1: HERO REFERENTES  */
-#section-referentes {
-  margin-top: 92px; /* Para prevenir content overlay */
+section:first-of-type {
+  margin-top: 92px;
 }
 #section-referentes .container-fluid {
   padding-left: 0px;

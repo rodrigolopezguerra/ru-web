@@ -3,10 +3,14 @@
 EDIT: Luego Ir migrando cada page a su propio css, excepto quizas los titulos y demas generalidades. Ya lo hice con quienes-somos.css y referentes.css
 */
 
-/* PAGES BASES */
-#bases {
-  margin: 92px 0 100px 0;
+section:first-of-type {
+  margin-top: 92px;
 }
+
+section:last-of-type {
+  margin-bottom: 100px;
+}
+
 #bases .row {
   text-align: justify;
 }
