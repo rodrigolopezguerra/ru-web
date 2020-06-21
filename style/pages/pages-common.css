@@ -59,6 +59,42 @@ section:last-of-type {
   text-align: center !important;
 }
 
+<<<<<<< HEAD:style/pages/pages-common.css
+=======
+/* PAGE REFERENTE */
+#referente {
+  margin: 5% 0 150px 0;
+}
+#referente img {
+  width: 100%;
+}
+.title-referente {
+  font-family: "grotesk-bold";
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin: 3rem 0 1.5rem 0;
+}
+
+.descripcion-referente {
+  font-size: 1rem;
+  color: var(--third-color);
+  font-family: "grotesk-medium";
+  margin-bottom: 1rem;
+}
+
+#referente i {
+  color: var(--primary-color);
+  margin: 1rem 0.7rem 0 0;
+  font-size: 1.2rem;
+}
+
+.box-part{
+ /* background:#FFF; */
+  border-radius:0;
+  padding:20px 10px;
+}
+
+>>>>>>> c9680e8f80b13d0912f07f17d4230bfd8d147e3b:style/pages.css
 /* MEDIA QUERIES MOBILE */
 @media (max-width: 768px) {
   #bases .subtitle {
