@@ -59,8 +59,6 @@ section:last-of-type {
   text-align: center !important;
 }
 
-<<<<<<< HEAD:style/pages/pages-common.css
-=======
 /* PAGE REFERENTE */
 #referente {
   margin: 5% 0 150px 0;
@@ -88,13 +86,6 @@ section:last-of-type {
   font-size: 1.2rem;
 }
 
-.box-part{
- /* background:#FFF; */
-  border-radius:0;
-  padding:20px 10px;
-}
-
->>>>>>> c9680e8f80b13d0912f07f17d4230bfd8d147e3b:style/pages.css
 /* MEDIA QUERIES MOBILE */
 @media (max-width: 768px) {
   #bases .subtitle {
