@@ -170,120 +170,9 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <!-- REFERENTE : AGUSTIN ETCHEBARNE -->
-          <div class="col-md col-6">
-            <a href="../pages/referentes/agustin-etchebarne.html"
-              ><img src="../img/referentes/etchebarne_cuadrado.png" alt=""
-            /></a>
-          </div>
-          <!-- REFERENTE : MARINA KIENAST -->
-          <div class="col-md col-6">
-            <a href="../pages/referentes/marina-kienast.html"
-              ><img src="../img/referentes/marina_cuadrado.jpg" alt=""
-            /></a>
-          </div>
-          <!-- REFERENTE : GUSTAVO SEGRE -->
-          <div class="col-md col-6">
-            <a href="../pages/referentes/gustavo-segre.html"
-              ><img src="../img/referentes/segre_cuadrado.png" alt=""
-            /></a>
-          </div>
-          <!-- REFERENTE : MARCOS HILDING -->
-          <div class="col-md col-6">
-            <a href="../pages/referentes/marcos-hilding-ohlsson.html"
-              ><img src="../img/referentes/marcos_cuadrado.png" alt=""
-            /></a>
-          </div>
-          <!-- REFERENTE : MANUEL ADORNI -->
-          <div class="col-md col-6">
-            <a href="../pages/referentes/manuel-adorni.html"
-              ><img
-                class="espejada"
-                src="../img/referentes/adorni_cuadrado.png"
-                alt=""
-            /></a>
-          </div>
-          <!-- REFERENTE : GUSTAVO LAZZARI -->
-          <div class="col-md col-6">
-            <a href="../pages/referentes/gustavo-lazzari.html"
-              ><img
-                class="espejada"
-                src="../img/referentes/lazzari_cuadrado.png"
-                alt=""
-            /></a>
-          </div>
-        </div>
-
-        <div class="row">
-          <!-- REFERENTE : CONSTANZA MAZZINA -->
-          <div class="col-md col-6">
-            <a href="../pages/referentes/constanza-mazzina.html"
-              ><img src="../img/referentes/constanza_cuadrado.jpg" alt=""
-            /></a>
-          </div>
-          <!-- REFERENTE : FAUSTO SPOTORNO -->
-          <div class="col-md col-6">
-            <a href="../pages/referentes/fausto-spotorno.html"
-              ><img src="../img/referentes/fausto_cuadrado.jpg" alt=""
-            /></a>
-          </div>
-          <!-- REFERENTE : MIGUEL BOGGIANO -->
-          <div class="col-md col-6">
-            <a href="../pages/referentes/miguel-boggiano.html"
-              ><img src="../img/referentes/boggiano_cuadrado.png" alt=""
-            /></a>
-          </div>
-          <!-- REFERENTE : RODRIGO LOPEZ GUERRA -->
-          <div class="col-md col-6">
-            <a href="../pages/referentes/rodrigo-lopez-guerra.html"
-              ><img src="../img/referentes/rodrigo_cuadrado2.jpeg" alt=""
-            /></a>
-          </div>
-
-          <!-- REFERENTE : GONZALO BLOUSSON -->
-          <div class="col-md col-6">
-            <a href="../pages/referentes/gonzalo-blousson.html"
-              ><img src="../img/referentes/blousson_cuadrado.png" alt=""
-            /></a>
-          </div>
-          <!-- REFERENTE : NATALIA MOTYL -->
-          <div class="col-md col-6">
-            <a href="../pages/referentes/natalia-motyl.html"
-              ><img src="../img/referentes/motyl_cuadrado.jpeg" alt=""
-            /></a>
-          </div>
-        </div>
-
-        <div class="row">
-          <!-- REFERENTE : GABRIELA MALERBA -->
-          <div class="col-md-2 col-6">
-            <a href="../pages/referentes/gabriela-malerba.html"
-              ><img src="../img/referentes/gabriela_cuadrado.jpg" alt=""
-            /></a>
-          </div>
-          <!-- REFERENTE : PABLO ABDON TORRES -->
-          <div class="col-md-2 col-6">
-            <a href="../pages/referentes/abdon-torres.html"
-              ><img
-                src="../img/referentes/abdon-torres_cuadrado.png"
-                alt=""
-                class="espejada"
-            /></a>
-          </div>
-          <!-- REFERENTE : VICKY FLORES PIRAN -->
-          <div class="col-md-2 col-6">
-            <a href="../pages/referentes/vicky-flores-piran.html"
-              ><img src="../img/referentes/foto vicky retocada1.jpg" alt=""
-            /></a>
-          </div>
-          <!-- REFERENTE : ARIEL AGUILAR -->
-          <div class="col-md-2 col-6">
-            <a href="../pages/referentes/ariel-aguilar.html"
-              ><img src="../img/referentes/ariel-aguilar_cuadrado.png" alt=""
-            /></a>
-          </div>
-        </div>
+        <div class="row row1"></div>
+        <div class="row row2"></div>
+        <div class="row row3"></div>
       </div>
     </section>
 
@@ -318,6 +207,54 @@
       </div>
     </div>
 
+    <script type="text/javascript" src="../js/referentes.js"></script>
+    <script>
+      let referentesDiv = document.getElementById("referentes");
+      let container = document.querySelector("#referentes .container");
+      let row1 = document.querySelector("#referentes .row1");
+      let row2 = document.querySelector("#referentes .row2");
+      let row3 = document.querySelector("#referentes .row3");
+
+      referentes.map((referente, i) => {
+        //Por cada referente creo col y card
+        let col = document.createElement("div");
+        let cardReferente = document.createElement("div");
+        let nombre = document.createElement("span");
+        let foto = document.createElement("img");
+        let page = document.createElement("a");
+
+        col.className = "col-md-2 col-6";
+        cardReferente.className = "card-referente";
+
+        //Hago que hayan hasta 6 referentes por row
+        i < 6
+          ? row1.appendChild(col)
+          : i < 12
+          ? row2.appendChild(col)
+          : row3.appendChild(col);
+
+        //Agrego todos los elementos por referente
+        col.appendChild(cardReferente);
+        foto.src = referente.foto;
+        page.href = referente.pagina;
+        nombre.innerHTML = referente.nombre;
+
+        cardReferente.appendChild(foto);
+        cardReferente.appendChild(nombre);
+        cardReferente.onclick = function () {
+          window.open(
+            `https://unidosargentina.org/pages/referentes/${referente.page}`
+          );
+        };
+
+        //Agrego el elemento creado a la row.
+        i < 6
+          ? container.appendChild(row1)
+          : i < 12
+          ? container.appendChild(row2)
+          : container.appendChild(row3);
+      });
+    </script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
