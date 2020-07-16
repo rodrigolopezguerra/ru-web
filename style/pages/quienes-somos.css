@@ -1,5 +1,7 @@
 /* QUIENES SOMOS */
-
+body {
+  background: #f6f6f6; /* Ver si luego le aplicamos este mismo background al resto de las pages */
+}
 #quienes-somos {
   margin: 92px 0 0 0;
 }
@@ -15,21 +17,42 @@
   color: var(--secondary-color);
   font-family: grotesk-bold;
 }
-
+.row1,
+.row2,
+.row3,
+.row4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 #referentes {
   margin: 0 0 10px 0;
 }
 #referentes img {
   width: 100%;
-
-  padding: 0.5rem;
+  border-radius: 7px;
 }
-#referentes .col-md,
+#referentes .col-md-2,
 #referentes .col-6 {
-  padding: 0;
+  padding: 0.5rem;
+  margin: 0 1rem;
 }
 #referentes .row:nth-child(4) {
   justify-content: center;
+}
+
+.card-referente {
+  border-radius: 7px;
+
+  background: white;
+  transition: 0.2s ease-in;
+  width: 100%;
+}
+.card-referente:hover {
+  transform: translateY(-0.6rem);
+}
+.card-referente img {
+  width: 100%;
 }
 
 #cta {
@@ -62,12 +85,4 @@
     display: flex;
     justify-content: center;
   }
-}
-
-.card-referente {
-  background: gray;
-  width: 100%;
-}
-.card-referente img {
-  width: 100%;
 }

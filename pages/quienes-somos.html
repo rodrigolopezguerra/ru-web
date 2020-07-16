@@ -173,6 +173,7 @@
         <div class="row row1"></div>
         <div class="row row2"></div>
         <div class="row row3"></div>
+        <div class="row row4"></div>
       </div>
     </section>
 
@@ -214,45 +215,52 @@
       let row1 = document.querySelector("#referentes .row1");
       let row2 = document.querySelector("#referentes .row2");
       let row3 = document.querySelector("#referentes .row3");
-
+      let row4 = document.querySelector("#referentes .row4");
       referentes.map((referente, i) => {
         //Por cada referente creo col y card
         let col = document.createElement("div");
         let cardReferente = document.createElement("div");
         let nombre = document.createElement("span");
-        let foto = document.createElement("img");
-        let page = document.createElement("a");
+        let foto = `<a href=${referente.pagina}><img src=${referente.foto}></img></a>`;
 
+        let boxRedes = `<div class="box-redes">${
+          referente.redesSociales &&
+          referente.redesSociales.map(
+            (red) => `<a href=${red.link}><i class="fa fa-${red.red}"></i></a>`
+          )
+        } </div>`;
+
+        console.log(boxRedes);
         col.className = "col-md-2 col-6";
         cardReferente.className = "card-referente";
 
         //Hago que hayan hasta 6 referentes por row
-        i < 6
+        i < 5
           ? row1.appendChild(col)
-          : i < 12
+          : i < 10
           ? row2.appendChild(col)
-          : row3.appendChild(col);
+          : i < 15
+          ? row3.appendChild(col)
+          : row4.appendChild(col);
 
         //Agrego todos los elementos por referente
         col.appendChild(cardReferente);
         foto.src = referente.foto;
-        page.href = referente.pagina;
-        nombre.innerHTML = referente.nombre;
 
-        cardReferente.appendChild(foto);
+        nombre.innerHTML = `${referente.nombre} ${referente.apellido}`;
+
+        cardReferente.innerHTML += foto;
         cardReferente.appendChild(nombre);
-        cardReferente.onclick = function () {
-          window.open(
-            `https://unidosargentina.org/pages/referentes/${referente.page}`
-          );
-        };
+        cardReferente.innerHTML += boxRedes;
 
         //Agrego el elemento creado a la row.
-        i < 6
+        i < 5
           ? container.appendChild(row1)
-          : i < 12
+          : i < 10
           ? container.appendChild(row2)
-          : container.appendChild(row3);
+          : i < 15
+          ? container.appendChild(row3)
+          : container.appendChild(row4);
       });
     </script>
     <script
