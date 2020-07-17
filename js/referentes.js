@@ -7,7 +7,7 @@ let referentes = [
       { red: "twitter", link: "https://twitter.com/aetchebarne" },
       { red: "facebook", link: "prueba" },
     ],
-    page: "agustin-etchebarne.html",
+    pagina: "../pages/referentes/agustin-etchebarne.html",
     foto: "../img/referentes/etchebarne_cuadrado.png",
   },
   {
@@ -15,7 +15,7 @@ let referentes = [
     nombre: "Marina",
     apellido: "Kienast",
     redesSociales: [{ red: "twitter", link: "markienast1" }],
-    page: "marina-kienast.html",
+    pagina: "../pages/referentes/marina-kienast.html",
     foto: "../img/referentes/marina_cuadrado.jpg",
   },
   {
@@ -23,16 +23,16 @@ let referentes = [
     nombre: "Gustavo",
     apellido: "Segré",
     redesSociales: [{ red: "twitter", link: "segregustavo" }],
-    page: "gustavo-segre.html",
+    pagina: "../pages/referentes/gustavo-segre.html",
     foto: "../img/referentes/segre_cuadrado.png",
   },
 
   {
     id: 4,
     nombre: "Marcos",
-    apellido: "Hilding Ohlsson",
+    apellido: "H. Ohlsson",
     redesSociales: [{ red: "twitter", link: "hildingmarcos" }],
-    page: "marcos-hilding-ohlsson.html",
+    pagina: "../pages/referentes/marcos-hilding-ohlsson.html",
     foto: "../img/referentes/marcos_cuadrado.png",
   },
   {
@@ -40,7 +40,7 @@ let referentes = [
     nombre: "Manuel",
     apellido: "Adorni",
     redesSociales: [{ red: "twitter", link: "madorni" }],
-    page: "manuel-adorni.html",
+    pagina: "../pages/referentes/manuel-adorni.html",
     foto: "../img/referentes/adorni_cuadrado.png",
   },
   {
@@ -48,7 +48,7 @@ let referentes = [
     nombre: "Gustavo",
     apellido: "Lazzari",
     redesSociales: [{ red: "twitter", link: "lacha" }],
-    page: "gustavo-lazzari.html",
+    pagina: "../pages/referentes/gustavo-lazzari.html",
     foto: "../img/referentes/lazzari_cuadrado.png",
   },
   {
@@ -56,7 +56,7 @@ let referentes = [
     nombre: "Constanza",
     apellido: "Mazzina",
     redesSociales: [{ red: "twitter", link: "CMazzina" }],
-    page: "constanza-mazzina.html",
+    pagina: "../pages/referentes/constanza-mazzina.html",
     foto: "../img/referentes/constanza_cuadrado.jpg",
   },
   {
@@ -64,7 +64,7 @@ let referentes = [
     nombre: "Fausto",
     apellido: "Spotorno",
     redesSociales: [{ red: "twitter", link: "fspotorno" }],
-    page: "fausto-spotorno.html",
+    pagina: "../pages/referentes/fausto-spotorno.html",
     foto: "../img/referentes/fausto_cuadrado.jpg",
   },
   {
@@ -72,7 +72,7 @@ let referentes = [
     nombre: "Miguel",
     apellido: "Boggiano",
     redesSociales: [{ red: "twitter", link: "miguel_boggiano" }],
-    page: "miguel-boggiano.html",
+    pagina: "../pages/referentes/miguel-boggiano.html",
     foto: "../img/referentes/boggiano_cuadrado.png",
   },
   {
@@ -80,7 +80,7 @@ let referentes = [
     nombre: "Rodrigo",
     apellido: "López Guerra",
     redesSociales: [{ red: "twitter", link: "rodrilopezg" }],
-    page: "rodrigo-lopez-guerra.html",
+    pagina: "../pages/referentes/rodrigo-lopez-guerra.html",
     foto: "../img/referentes/rodrigo_cuadrado.jpg",
   },
   {
@@ -88,7 +88,7 @@ let referentes = [
     nombre: "Gonzalo",
     apellido: "Blousson",
     redesSociales: [{ red: "twitter", link: "GonBlousson" }],
-    page: "gonzalo-blousson.html",
+    pagina: "../pages/referentes/gonzalo-blousson.html",
     foto: "../img/referentes/blousson_cuadrado.png",
   },
   {
@@ -96,7 +96,7 @@ let referentes = [
     nombre: "Natalia",
     apellido: "Motyl",
     redesSociales: [{ red: "twitter", link: "naty_motyl" }],
-    page: "natalia-motyl.html",
+    pagina: "../pages/referentes/natalia-motyl.html",
     foto: "../img/referentes/motyl_cuadrado.jpeg",
   },
   {
@@ -104,7 +104,7 @@ let referentes = [
     nombre: "Gabriela",
     apellido: "Malerba",
     redesSociales: [{ red: "twitter", link: "GabrielaMaler" }],
-    page: "gabriela-malerba.html",
+    pagina: "../pages/referentes/gabriela-malerba.html",
     foto: "../img/referentes/gabriela_cuadrado.jpg",
   },
   {
@@ -112,7 +112,7 @@ let referentes = [
     nombre: "Pablo",
     apellido: "Abdon Torres",
     redesSociales: [{ red: "twitter", link: "AlberdianoArg" }],
-    page: "abdon-torres.html",
+    pagina: "../pages/referentes/abdon-torres.html",
     foto: "../img/referentes/abdon-torres_cuadrado.png",
   },
   {
@@ -120,7 +120,7 @@ let referentes = [
     nombre: "Victoria",
     apellido: "Flores Pirán",
     redesSociales: [],
-    page: "vicky-flores-piran.html",
+    pagina: "../pages/referentes/vicky-flores-piran.html",
     foto: "../img/referentes/victoria_cuadrado.jpg",
   },
   {
@@ -128,7 +128,7 @@ let referentes = [
     nombre: "Ariel",
     apellido: "Aguilar",
     redesSociales: [{ red: "twitter", link: "arielaguilar" }],
-    page: "ariel-aguilar.html",
+    pagina: "../pages/referentes/ariel-aguilar.html",
     foto: "../img/referentes/ariel-aguilar_cuadrado.png",
   },
 ];
