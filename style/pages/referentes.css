@@ -20,9 +20,11 @@
 }
 
 #referente i {
-  color: var(--primary-color);
   margin: 1rem 0.7rem 0 0;
   font-size: 1.2rem;
+}
+.redes-referente .col-md-3 {
+  text-align: center;
 }
 
 /* MEDIA QUERIES MOBILE */

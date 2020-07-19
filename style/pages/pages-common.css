@@ -58,7 +58,20 @@ section:last-of-type {
   margin-bottom: 1.5rem;
   text-align: center !important;
 }
+.fa-facebook {
+  color: #3b5998;
+}
 
+.fa-twitter {
+  color: #1da1f2;
+}
+
+.fa-instagram {
+  color: #c13584;
+}
+.fa-youtube {
+  color: #ff0000;
+}
 /* PAGE REFERENTE */
 #referente {
   margin: 5% 0 150px 0;
@@ -81,7 +94,6 @@ section:last-of-type {
 }
 
 #referente i {
-  color: var(--primary-color);
   margin: 1rem 0.7rem 0 0;
   font-size: 1.2rem;
 }

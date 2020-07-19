@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -220,21 +220,23 @@
         //Por cada referente creo col y card
         let col = document.createElement("div");
         let cardReferente = document.createElement("div");
+        col.className = "col-md-2 col-6";
+        cardReferente.className = "card-referente";
         let nombre = document.createElement("span");
+        nombre.innerHTML = `${referente.nombre} ${referente.apellido}`;
         let foto = `<a href=${referente.pagina} target="_blank"><img src=${referente.foto}></img></a>`;
 
         let boxRedes = `<div class="box-redes">${
           referente.redesSociales &&
-          referente.redesSociales.map(
-            (red) => `<a href=${red.link}><i class="fa fa-${red.red}"></i></a>`
-          )
+          referente.redesSociales
+            .map(
+              (red) =>
+                `<a href=${red.link} target="_blank"><i class="fa fa-${red.red}"></i></a>`
+            )
+            .join("")
         } </div>`;
 
-        console.log(boxRedes);
-        col.className = "col-md-2 col-6";
-        cardReferente.className = "card-referente";
-
-        //Hago que hayan hasta 6 referentes por row
+        //Hago que hayan hasta 5 referentes por row
         i < 5
           ? row1.appendChild(col)
           : i < 10
@@ -245,15 +247,12 @@
 
         //Agrego todos los elementos por referente
         col.appendChild(cardReferente);
-        foto.src = referente.foto;
-
-        nombre.innerHTML = `${referente.nombre} ${referente.apellido}`;
 
         cardReferente.innerHTML += foto;
         cardReferente.appendChild(nombre);
         cardReferente.innerHTML += boxRedes;
 
-        //Agrego el elemento creado a la row.
+        //Agrego las row al container.
         i < 5
           ? container.appendChild(row1)
           : i < 10

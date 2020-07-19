@@ -24,6 +24,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 1.2rem;
 }
 /* .row1 .col-md-2,
 .row2 .col-md-2,
@@ -34,10 +35,7 @@ body {
 #referentes {
   margin: 0 0 10px 0;
 }
-#referentes img {
-  width: 100%;
-  border-radius: 7px;
-}
+
 #referentes .col-md-2,
 #referentes .col-6 {
   padding: 0.5rem;
@@ -63,10 +61,11 @@ body {
 }
 .card-referente img {
   width: 100%;
+  border-radius: 7px 7px 0 0;
 }
 .card-referente span {
   text-align: center;
-  margin: 0.5rem 0 0 0;
+  margin: 1rem 0 0 0;
   font-family: "grotesk-regular";
 }
 
@@ -74,27 +73,14 @@ body {
   font-size: 1.3rem;
   text-align: center;
 }
-.fa-facebook {
-  color: #3b5998;
-}
 
-.fa-twitter {
-  color: #1da1f2;
-}
-
-.fa-instagram {
-  color: #c13584;
-}
-.fa-youtube {
-  color: #ff0000;
-}
 .box-redes {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
-  margin: 1.5rem 0rem 1rem 0;
+  margin: 1rem 0rem 1rem 0;
 }
 
 #cta {
@@ -126,5 +112,10 @@ body {
   .redes-referente .col-md-3 {
     display: flex;
     justify-content: center;
+  }
+  #referentes .col-md-2,
+  #referentes .col-6 {
+    padding: 0.7rem;
+    margin: 0 0rem;
   }
 }
