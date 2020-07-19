@@ -177,6 +177,19 @@
       </div>
     </section>
 
+    <section id="staffes">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title">
+              Staffes
+            </div>
+          </div>
+        </div>
+        <div class="row row1"></div>
+      </div>
+    </section>
+
     <section id="cta">
       <div class="container">
         <div class="row">
@@ -260,6 +273,40 @@
           : i < 15
           ? container.appendChild(row3)
           : container.appendChild(row4);
+      });
+    </script>
+
+    <script>
+      //Staffes
+      let staffesContainer = document.querySelector("#staffes .container");
+      let row1staffes = document.querySelector("#staffes .row1");
+
+      staffes.map((staff, i) => {
+        console.log(staff);
+        //Por cada staff creo col y card
+        let colStaff = document.createElement("div");
+        let cardStaff = document.createElement("div");
+        colStaff.className = "col-md-2 col-6";
+        cardStaff.className = "card-referente";
+        let nombre = document.createElement("span");
+        nombre.innerHTML = `${staff.nombre} ${staff.apellido}`;
+        let rol = document.createElement("span");
+        rol.innerHTML = `${staff.rol}`;
+        rol.className = "staff-rol";
+        let foto = `<img src=${staff.foto}></img>`;
+
+        row1staffes.appendChild(colStaff);
+
+        //Agrego todos los elementos por referente
+        colStaff.appendChild(cardStaff);
+
+        cardStaff.innerHTML += foto;
+        cardStaff.appendChild(nombre);
+        cardStaff.appendChild(rol);
+
+        //Agrego las row al container.
+
+        staffesContainer.appendChild(row1staffes);
       });
     </script>
     <script

@@ -190,6 +190,21 @@ let staffes = [
     id: 1,
     nombre: "Tomás",
     apellido: "Castro",
-    foto: "../img/referentes/ariel-aguilar_cuadrado.png",
+    foto: "../img/staffes/tomas_castro_cuadrado.png",
+    rol: "Contenido, comunicación y redes sociales.",
+  },
+  {
+    id: 2,
+    nombre: "Nicolás",
+    apellido: "Laurence",
+    foto: "../img/staffes/nicolas_laurence_cuadrado.png",
+    rol: "Coordinación de voluntarios, logística y afiliaciones.",
+  },
+  {
+    id: 3,
+    nombre: "Francisco",
+    apellido: "Pelaez",
+    foto: "../img/staffes/francisco_pelaez_cuadrado.png",
+    rol: "Desarrollo institucional y logística de afiliaciones.",
   },
 ];

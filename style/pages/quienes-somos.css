@@ -32,7 +32,8 @@ body {
 .row4 .col-md-2 {
   flex: 1;
 } */
-#referentes {
+#referentes,
+#staffes {
   margin: 0 0 10px 0;
 }
 
@@ -41,6 +42,12 @@ body {
   padding: 0.5rem;
   margin: 0 1rem;
 }
+#staffes .col-md-2,
+#staffes .col-6 {
+  padding: 0.5rem;
+  margin: 0 1rem;
+}
+
 #referentes .row:nth-child(4) {
   justify-content: center;
 }
@@ -66,7 +73,15 @@ body {
 .card-referente span {
   text-align: center;
   margin: 1rem 0 0 0;
-  font-family: "grotesk-regular";
+  font-family: "grotesk-bold";
+  font-size: 0.9rem;
+}
+
+.staff-rol {
+  font-size: 0.85rem;
+  padding: 0 0.5rem 0.5rem 0.5rem;
+  min-height: 75px;
+  font-family: "grotesk-regular" !important;
 }
 
 .card-referente i {
@@ -115,6 +130,11 @@ body {
   }
   #referentes .col-md-2,
   #referentes .col-6 {
+    padding: 0.7rem;
+    margin: 0 0rem;
+  }
+  #staffes .col-md-2,
+  #staffes .col-6 {
     padding: 0.7rem;
     margin: 0 0rem;
   }
