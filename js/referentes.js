@@ -183,6 +183,18 @@ let referentes = [
     pagina: "../pages/referentes/ariel-aguilar.html",
     foto: "../img/referentes/ariel-aguilar_cuadrado.png",
   },
+  {
+    id: 17,
+    nombre: "Gustavo",
+    apellido: "Semería",
+    redesSociales: [
+      { red: "twitter", link: "https://twitter.com/SemeriaGustavo" },
+	  { red: "instagram", link: "https://instagram.com/gustavosemeria" },
+	  { red: "facebook", link: "https://www.facebook.com/gus.rse" },
+    ],
+    pagina: "../pages/referentes/gustavo-semeria.html",
+    foto: "../img/referentes/gustavo-semeria-3.jpg",
+  },
 ];
 
 let staffes = [
