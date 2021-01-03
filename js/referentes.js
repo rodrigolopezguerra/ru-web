@@ -119,18 +119,6 @@ let referentes = [
     foto: "../img/referentes/rodrigo_cuadrado.jpg",
   },
   {
-    id: 11,
-    nombre: "Gonzalo",
-    apellido: "Blousson",
-    redesSociales: [
-      { red: "twitter", link: "https://twitter.com/GonBlousson" },
-      { red: "instagram", link: "https://instagram.com/gonzaloblousson" },
-      { red: "facebook", link: "https://facebook.com/gonzalo.blousson" },
-    ],
-    pagina: "../pages/referentes/gonzalo-blousson.html",
-    foto: "../img/referentes/blousson_cuadrado.png",
-  },
-  {
     id: 12,
     nombre: "Natalia",
     apellido: "Motyl",
@@ -198,7 +186,7 @@ let referentes = [
 ];
 
 let staffes = [
-  {
+  /*{
     id: 1,
     nombre: "Tomás",
     apellido: "Castro",
@@ -211,7 +199,7 @@ let staffes = [
     apellido: "Laurence",
     foto: "../img/staffes/nicolas_laurence_cuadrado.png",
     rol: "Coordinación de voluntarios, logística y afiliaciones.",
-  },
+  },*/
   {
     id: 3,
     nombre: "Francisco",
