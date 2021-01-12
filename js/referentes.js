@@ -171,18 +171,66 @@ let referentes = [
     pagina: "../pages/referentes/ariel-aguilar.html",
     foto: "../img/referentes/ariel-aguilar_cuadrado.png",
   },
-  {
-    id: 17,
-    nombre: "Gustavo",
-    apellido: "Semería",
-    redesSociales: [
-      { red: "twitter", link: "https://twitter.com/SemeriaGustavo" },
-	  { red: "instagram", link: "https://instagram.com/gustavosemeria" },
-	  { red: "facebook", link: "https://www.facebook.com/gus.rse" },
-    ],
-    pagina: "../pages/referentes/gustavo-semeria.html",
-    foto: "../img/referentes/gustavo-semeria-3.jpg",
-  },
+    {
+        id: 17,
+        nombre: "Gustavo",
+        apellido: "Semería",
+        redesSociales: [
+            { red: "twitter", link: "https://twitter.com/SemeriaGustavo" },
+            { red: "instagram", link: "https://instagram.com/gustavosemeria" },
+            { red: "facebook", link: "https://www.facebook.com/gus.rse" },
+        ],
+        pagina: "../pages/referentes/gustavo-semeria.html",
+        foto: "../img/referentes/gustavo-semeria-3.jpg",
+    },
+    {
+        id: 18,
+        nombre: "Yamil",
+        apellido: "Santoro",
+        redesSociales: [
+            { red: "twitter", link: "https://twitter.com/yamilsantoro" },
+            //{ red: "instagram", link: "https://instagram.com/gustavosemeria" },
+            //{ red: "facebook", link: "https://www.facebook.com/gus.rse" },
+        ],
+        pagina: "../pages/referentes/yamil-santoro.html",
+        foto: "../img/referentes/yamil-santoro_cuadrado.jpg",
+    },
+    {
+        id: 19,
+        nombre: "Ricardo",
+        apellido: "Lopez Murphy",
+        redesSociales: [
+            { red: "twitter", link: "https://twitter.com/rlopezmurphy" },
+            //{ red: "instagram", link: "https://instagram.com/gustavosemeria" },
+            //{ red: "facebook", link: "https://www.facebook.com/gus.rse" },
+        ],
+        pagina: "../pages/referentes/lopez-murphy.html",
+        foto: "../img/referentes/lopez-murphy_cuadrado.jpg",
+    },
+    {
+        id: 20,
+        nombre: "Ramiro",
+        apellido: "Pirillo",
+        redesSociales: [
+            { red: "twitter", link: "https://twitter.com/checalopiri" },
+            //{ red: "instagram", link: "https://instagram.com/gustavosemeria" },
+            //{ red: "facebook", link: "https://www.facebook.com/gus.rse" },
+        ],
+        pagina: "../pages/referentes/ramiro-pirillo.html",
+        foto: "../img/referentes/ramiro-pirillo_cuadrado.jpg",
+    },
+    {
+        id: 21,
+        nombre: "Juan Bautista",
+        apellido: "Quiroga",
+        redesSociales: [
+            { red: "twitter", link: "https://twitter.com/juanbquiroga" },
+            { red: "instagram", link: "https://instagram.com/jbquiroga" },
+            //{ red: "facebook", link: "https://www.facebook.com/gus.rse" },
+        ],
+        pagina: "../pages/referentes/juan-quiroga.html",
+        foto: "../img/referentes/juan-quiroga_cuadrado.jpg",
+    },
 ];
 
 let staffes = [
@@ -208,3 +256,13 @@ let staffes = [
     rol: "Desarrollo institucional y logística de afiliaciones.",
   },*/
 ];
+
+function shuffle(a) {
+    for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+}
+
+shuffle(referentes);
