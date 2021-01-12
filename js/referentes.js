@@ -199,12 +199,12 @@ let staffes = [
     apellido: "Laurence",
     foto: "../img/staffes/nicolas_laurence_cuadrado.png",
     rol: "Coordinación de voluntarios, logística y afiliaciones.",
-  },*/
+  },
   {
     id: 3,
     nombre: "Francisco",
     apellido: "Pelaez",
     foto: "../img/staffes/francisco_pelaez_cuadrado.png",
     rol: "Desarrollo institucional y logística de afiliaciones.",
-  },
+  },*/
 ];

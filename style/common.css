@@ -2,12 +2,12 @@
 
 /* VARIABLES */
 :root {
-  --primary-color: #0097be;
-  --secondary-color: #161616;
-  --third-color: #ababab;
-  --fourth-color: #e5e5e5;
-  --fifth-color: #f0802d;
-  --box-shadow-main: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    --primary-color: #661f7a;
+    --secondary-color: #161616;
+    --third-color: #ababab;
+    --fourth-color: #e5e5e5;
+    --fifth-color: #ff7f00;
+    --box-shadow-main: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 @font-face {
@@ -83,10 +83,17 @@ nav ul {
 }
 
 .puntos-naranja {
-  /*max-height: 100%;
+    /*max-height: 100%;
     width: 100%;*/
-  float: right;
-  object-fit: cover;
+    float: right;
+    object-fit: cover;
+}
+
+.puntos-purpura {
+    /*max-height: 100%;
+    width: 100%;*/
+    float: right;
+    object-fit: cover;
 }
 
 .footer {
@@ -142,9 +149,12 @@ nav ul {
   .mobile-out {
     display: none;
   }
-  .puntos-naranja {
-    display: none;
-  }
+    .puntos-naranja {
+        display: none;
+    }
+    .puntos-purpura {
+        display: none;
+    }
   .footer {
     height: 90px;
   }
