@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\img",
+    "\\js",
+    "\\pages",
+    "\\style",
+    "\\style\\pages"
   ],
-  "SelectedNode": "\\img",
+  "SelectedNode": "\\pages\\quienes-somos.html",
   "PreviewInSolutionExplorer": false
 }
