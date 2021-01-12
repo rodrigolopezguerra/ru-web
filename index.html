@@ -305,13 +305,16 @@
             for (i = index; i < referentes.length && i < index + 4; i++) {
                 var item = $('<div/>', { 'class': 'col-md-3' });
                 var link = $('<a/>', { href: referentes[i].pagina.replace('../', '') });
-                var image = $('<img/>', { 'src': referentes[i].foto.replace('../', '') });
+                var image = $('<img/>', { 'src': referentes[i].foto1.replace('../', '') });
                 link.append(image);
                 item.append(link);
                 carouselrowinner.append(item);
             }
+            var h1label = $('<h1/>', { 'class': 'hero-frase' });
+            h1label.html('POR UNA ARGENTINA MEJOR');
+            carouselrowinner.append(h1label);
 			carouselrow.append(carouselrowinner);
-
+			
             for (i = index; i < referentes.length && i < index + 4; i += 2) {
 				var mitem = $('<div/>', { 'class': 'col-6 p-0' });
 				var mlink = $('<a/>', { href: referentes[i].pagina.replace('../', '') });
@@ -338,33 +341,3 @@
     </script>
 </body>
 </html>
-<div class="carousel-item active">
-    <div class="row referentes">
-        <!-- REFERENTE : AGUSTIN ETCHEBARNE -->
-        <div class="col-6 p-0">
-            <a href="pages/referentes/agustin-etchebarne.html">
-                <img src="img/referentes/etchebarne_cuadrado.png" alt="" />
-            </a>
-        </div>
-        <!-- REFERENTE : MARINA KIENAST -->
-        <div class="col-6 p-0">
-            <a href="pages/referentes/marina-kienast.html">
-                <img src="img/referentes/marina_cuadrado.jpg" alt="" />
-            </a>
-        </div>
-    </div>
-    <div class="row referentes">
-        <!-- REFERENTE : GUSTAVO SEGRE -->
-        <div class="col-6 p-0">
-            <a href="pages/referentes/gustavo-segre.html">
-                <img src="img/referentes/segre_cuadrado.png" alt="" />
-            </a>
-        </div>
-        <!-- REFERENTE : MARCOS HILDING -->
-        <div class="col-6 p-0">
-            <a href="pages/referentes/marcos-hilding-ohlsson.html">
-                <img src="img/referentes/marcos_cuadrado.png" alt="" />
-            </a>
-        </div>
-    </div>
-</div>

@@ -9,7 +9,8 @@ let referentes = [
       { red: "facebook", link: "https://facebook.com/agustin.etchebarne" },
     ],
     pagina: "../pages/referentes/agustin-etchebarne.html",
-    foto: "../img/referentes/etchebarne_cuadrado.png",
+        foto: "../img/referentes/etchebarne_cuadrado.png",
+        foto1: "../img/referentes/etchebarne.jpg",
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ let referentes = [
     ],
     pagina: "../pages/referentes/marina-kienast.html",
     foto: "../img/referentes/marina_cuadrado.jpg",
+      foto1: "../img/referentes/marina.jpg",
   },
   {
     id: 3,
@@ -33,6 +35,7 @@ let referentes = [
     ],
     pagina: "../pages/referentes/gustavo-segre.html",
     foto: "../img/referentes/segre_cuadrado.png",
+      foto1: "../img/referentes/segre.jpg",
   },
 
   {
@@ -46,6 +49,7 @@ let referentes = [
     ],
     pagina: "../pages/referentes/marcos-hilding-ohlsson.html",
     foto: "../img/referentes/marcos_cuadrado.png",
+      foto1: "../img/referentes/marcos.png",
   },
   {
     id: 5,
@@ -62,6 +66,7 @@ let referentes = [
     ],
     pagina: "../pages/referentes/manuel-adorni.html",
     foto: "../img/referentes/adorni_cuadrado.png",
+      foto1: "../img/referentes/adorni.jpg",
   },
   {
     id: 6,
@@ -74,6 +79,7 @@ let referentes = [
     ],
     pagina: "../pages/referentes/gustavo-lazzari.html",
     foto: "../img/referentes/lazzari_cuadrado.png",
+      foto1: "../img/referentes/lazzari.jpg",
   },
   {
     id: 7,
@@ -86,6 +92,7 @@ let referentes = [
     ],
     pagina: "../pages/referentes/constanza-mazzina.html",
     foto: "../img/referentes/constanza_cuadrado.jpg",
+      foto1: "../img/referentes/constanza.jpg",
   },
   {
     id: 8,
@@ -98,6 +105,7 @@ let referentes = [
     ],
     pagina: "../pages/referentes/fausto-spotorno.html",
     foto: "../img/referentes/fausto_cuadrado.jpg",
+      foto1: "../img/referentes/spotorno.jpg",
   },
   {
     id: 9,
@@ -109,6 +117,7 @@ let referentes = [
     ],
     pagina: "../pages/referentes/miguel-boggiano.html",
     foto: "../img/referentes/boggiano_cuadrado.png",
+      foto1: "../img/referentes/boggiano.jpg",
   },
   {
     id: 10,
@@ -117,6 +126,7 @@ let referentes = [
     redesSociales: [{ red: "twitter", link: "rodrilopezg" }],
     pagina: "../pages/referentes/rodrigo-lopez-guerra.html",
     foto: "../img/referentes/rodrigo_cuadrado.jpg",
+      foto1: "../img/referentes/rodrigo.jpg",
   },
   {
     id: 12,
@@ -128,6 +138,7 @@ let referentes = [
     ],
     pagina: "../pages/referentes/natalia-motyl.html",
     foto: "../img/referentes/motyl_cuadrado.jpeg",
+      foto1: "../img/referentes/motyl.png",
   },
   {
     id: 13,
@@ -139,6 +150,7 @@ let referentes = [
     ],
     pagina: "../pages/referentes/gabriela-malerba.html",
     foto: "../img/referentes/gabriela_cuadrado.jpg",
+      foto1: "../img/referentes/gabriela.jpg",
   },
   {
     id: 14,
@@ -150,6 +162,7 @@ let referentes = [
     ],
     pagina: "../pages/referentes/abdon-torres.html",
     foto: "../img/referentes/abdon-torres_cuadrado.png",
+      foto1: "../img/referentes/abdon-torres.png",
   },
   {
     id: 15,
@@ -160,6 +173,7 @@ let referentes = [
     ],
     pagina: "../pages/referentes/vicky-flores-piran.html",
     foto: "../img/referentes/victoria_cuadrado.jpg",
+      foto1: "../img/referentes/victoria.jpg",
   },
   {
     id: 16,
@@ -170,6 +184,7 @@ let referentes = [
     ],
     pagina: "../pages/referentes/ariel-aguilar.html",
     foto: "../img/referentes/ariel-aguilar_cuadrado.png",
+      foto1: "../img/referentes/ariel-aguilar.png",
   },
     {
         id: 17,
@@ -182,6 +197,7 @@ let referentes = [
         ],
         pagina: "../pages/referentes/gustavo-semeria.html",
         foto: "../img/referentes/gustavo-semeria-3.jpg",
+        foto1: "../img/referentes/gustavo-semeria-2.jpg",
     },
     {
         id: 18,
@@ -194,6 +210,7 @@ let referentes = [
         ],
         pagina: "../pages/referentes/yamil-santoro.html",
         foto: "../img/referentes/yamil-santoro_cuadrado.jpg",
+        foto1: "../img/referentes/yamil-santoro.jpg",
     },
     {
         id: 19,
@@ -206,6 +223,7 @@ let referentes = [
         ],
         pagina: "../pages/referentes/lopez-murphy.html",
         foto: "../img/referentes/lopez-murphy_cuadrado.jpg",
+        foto1: "../img/referentes/lopez-murphy.jpg",
     },
     {
         id: 20,
@@ -218,6 +236,7 @@ let referentes = [
         ],
         pagina: "../pages/referentes/ramiro-pirillo.html",
         foto: "../img/referentes/ramiro-pirillo_cuadrado.jpg",
+        foto1: "../img/referentes/ramiro-pirillo.jpg",
     },
     {
         id: 21,
@@ -230,6 +249,7 @@ let referentes = [
         ],
         pagina: "../pages/referentes/juan-quiroga.html",
         foto: "../img/referentes/juan-quiroga_cuadrado.jpg",
+        foto1: "../img/referentes/juan-quiroga.jpg",
     },
 ];
 
