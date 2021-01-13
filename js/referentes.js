@@ -251,6 +251,57 @@ let referentes = [
         foto: "../img/referentes/juan-quiroga_cuadrado.jpg",
         foto1: "../img/referentes/juan-quiroga.jpg",
     },
+    {
+        id: 22,
+        nombre: "Rodrigo",
+        apellido: "Forlenza",
+        redesSociales: [
+            { red: "twitter", link: "https://twitter.com/RodrigoForlenza" },
+            { red: "instagram", link: "https://instagram.com/rodrigoforlenza" },
+        ],
+        pagina: "../pages/referentes/rodrigo-forlenza.html",
+        foto: "../img/referentes/rodrigo-forlenza_cuadrado.jpg",
+        foto1: "../img/referentes/rodrigo-forlenza.jpg",
+    },
+    {
+        id: 23,
+        nombre: "Maria",
+        apellido: "De Piano",
+        redesSociales: [
+            { red: "twitter", link: "https://twitter.com/Mdepiano1" },
+            //{ red: "instagram", link: "https://instagram.com/jbquiroga" },
+            //{ red: "facebook", link: "https://www.facebook.com/gus.rse" },
+        ],
+        pagina: "../pages/referentes/maria-de-piano.html",
+        foto: "../img/referentes/maria-de-piano_cuadrado.jpg",
+        foto1: "../img/referentes/maria-de-piano.jpg",
+    },
+    {
+        id: 24,
+        nombre: "Antonio",
+        apellido: "Fratamico",
+        redesSociales: [
+            { red: "twitter", link: "https://twitter.com/ninofrat" },
+            //{ red: "instagram", link: "https://instagram.com/jbquiroga" },
+            //{ red: "facebook", link: "https://www.facebook.com/gus.rse" },
+        ],
+        pagina: "../pages/referentes/antonio-fratamico.html",
+        foto: "../img/referentes/antonio-fratamico_cuadrado.jpg",
+        foto1: "../img/referentes/antonio-fratamico.jpg",
+    },
+    {
+        id: 25,
+        nombre: "Luis Sebastián",
+        apellido: "Cao",
+        redesSociales: [
+            { red: "twitter", link: "https://twitter.com/sebascaos" },
+            { red: "instagram", link: "https://instagram.com/sebascaos" },
+            //{ red: "facebook", link: "https://www.facebook.com/gus.rse" },
+        ],
+        pagina: "../pages/referentes/sebastian-cao.html",
+        foto: "../img/referentes/sebastian-cao_cuadrado.jpg",
+        foto1: "../img/referentes/sebastian-cao.jpg",
+    },
 ];
 
 let staffes = [
