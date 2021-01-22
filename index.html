@@ -292,7 +292,7 @@
         var isfirst = true;
         var iseven = false;
 
-        while (index < referentes.length) {
+        while (index < referenteshome.length) {
             var carouselrow = $('<div/>', { 'class': 'carousel-item' });
             var carouselrowinner = $('<div/>', { 'class': 'row referentes' });
 			var mcarouselrow = $('<div/>', { 'class': 'carousel-item' });
@@ -302,10 +302,10 @@
 				mcarouselrow.addClass('active');
                 isfirst = false;
             }
-            for (i = index; i < referentes.length && i < index + 4; i++) {
+			for (i = index; i < referenteshome.length && i < index + 4; i++) {
                 var item = $('<div/>', { 'class': 'col-md-3' });
-                var link = $('<a/>', { href: referentes[i].pagina.replace('../', '') });
-                var image = $('<img/>', { 'src': referentes[i].foto1.replace('../', '') });
+				var link = $('<a/>', { href: referenteshome[i].pagina.replace('../', '') });
+				var image = $('<img/>', { 'src': referenteshome[i].foto1.replace('../', '') });
                 link.append(image);
                 item.append(link);
                 carouselrowinner.append(item);
@@ -315,16 +315,16 @@
             carouselrowinner.append(h1label);
 			carouselrow.append(carouselrowinner);
 			
-            for (i = index; i < referentes.length && i < index + 4; i += 2) {
+			for (i = index; i < referenteshome.length && i < index + 4; i += 2) {
 				var mitem = $('<div/>', { 'class': 'col-6 p-0' });
-				var mlink = $('<a/>', { href: referentes[i].pagina.replace('../', '') });
-				var mimage = $('<img/>', { 'src': referentes[i].foto.replace('../', '') });
+				var mlink = $('<a/>', { href: referenteshome[i].pagina.replace('../', '') });
+				var mimage = $('<img/>', { 'src': referenteshome[i].foto.replace('../', '') });
 				mlink.append(mimage);
 				mitem.append(mlink);
 				mcarouselrowinner.append(mitem);
 				var mitem = $('<div/>', { 'class': 'col-6 p-0' });
-				var mlink = $('<a/>', { href: referentes[i+1].pagina.replace('../', '') });
-				var mimage = $('<img/>', { 'src': referentes[i+1].foto.replace('../', '') });
+				var mlink = $('<a/>', { href: referenteshome[i+1].pagina.replace('../', '') });
+				var mimage = $('<img/>', { 'src': referenteshome[i+1].foto.replace('../', '') });
 				mlink.append(mimage);
 				mitem.append(mlink);
                 mcarouselrowinner.append(mitem);

@@ -164,9 +164,6 @@
           </div>
         </div>
         <div class="row row1"></div>
-        <div class="row row2"></div>
-        <div class="row row3"></div>
-        <div class="row row4"></div>
       </div>
     </section>
 
@@ -219,9 +216,6 @@
       let referentesDiv = document.getElementById("referentes");
       let container = document.querySelector("#referentes .container");
       let row1 = document.querySelector("#referentes .row1");
-      let row2 = document.querySelector("#referentes .row2");
-      let row3 = document.querySelector("#referentes .row3");
-      let row4 = document.querySelector("#referentes .row4");
       referentes.map((referente, i) => {
         //Por cada referente creo col y card
         let col = document.createElement("div");
@@ -242,14 +236,7 @@
             .join("")
         } </div>`;
 
-        //Hago que hayan hasta 5 referentes por row
-        i < 5
-          ? row1.appendChild(col)
-          : i < 10
-          ? row2.appendChild(col)
-          : i < 15
-          ? row3.appendChild(col)
-          : row4.appendChild(col);
+        row1.appendChild(col)
 
         //Agrego todos los elementos por referente
         col.appendChild(cardReferente);
@@ -258,14 +245,7 @@
         cardReferente.appendChild(nombre);
         cardReferente.innerHTML += boxRedes;
 
-        //Agrego las row al container.
-        i < 5
-          ? container.appendChild(row1)
-          : i < 10
-          ? container.appendChild(row2)
-          : i < 15
-          ? container.appendChild(row3)
-          : container.appendChild(row4);
+        container.appendChild(row1)
       });
     </script>
 
