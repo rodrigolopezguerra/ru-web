@@ -396,6 +396,20 @@ let referentes = [
         foto1: "../img/referentes/robinson-cabrera.jpg",
         sexo: 'H'
     },
+    {
+        id: 30,
+        nombre: "Santiago",
+        apellido: "Pauli",
+        redesSociales: [
+            { red: "twitter", link: "https://twitter.com/santipauli" },
+            { red: "instagram", link: "https://instagram.com/santipaulitdf" },
+            { red: "facebook", link: "https://www.facebook.com/santipauliTDF" },
+        ],
+        pagina: "../pages/referentes/santiago-pauli.html",
+        foto: "../img/referentes/santiago-pauli_cuadrado.jpg",
+        foto1: "../img/referentes/santiago-pauli.jpg",
+        sexo: 'H'
+    },
 ];
 
 let staffes = [
