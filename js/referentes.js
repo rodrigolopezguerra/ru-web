@@ -410,6 +410,76 @@ let referentes = [
         foto1: "../img/referentes/santiago-pauli.jpg",
         sexo: 'H'
     },
+    {
+        id: 31,
+        nombre: "Guillermo",
+        apellido: "Smith",
+        redesSociales: [
+            { red: "twitter", link: "https://twitter.com/guillersmith5" },
+            { red: "instagram", link: "https://instagram.com/guillermo_smith1" },
+            { red: "facebook", link: "https://www.facebook.com/guillermo.smith.77" },
+        ],
+        pagina: "../pages/referentes/guillermo-smith.html",
+        foto: "../img/referentes/guillermo-smith_cuadrado.jpg",
+        foto1: "../img/referentes/guillermo-smith.jpg",
+        sexo: 'H'
+    },
+    {
+        id: 32,
+        nombre: "Jorge",
+        apellido: "Kogan",
+        redesSociales: [
+            //{ red: "twitter", link: "https://twitter.com/guillersmith5" },
+            { red: "instagram", link: "https://instagram.com/jorge.kogan" },
+            //{ red: "facebook", link: "https://www.facebook.com/guillermo.smith.77" },
+        ],
+        pagina: "../pages/referentes/jorge-kogan.html",
+        foto: "../img/referentes/jorge-kogan_cuadrado.jpg",
+        foto1: "../img/referentes/jorge-kogan.jpg",
+        sexo: 'H'
+    },
+    {
+        id: 33,
+        nombre: "Marcos",
+        apellido: "Gomez",
+        redesSociales: [
+            //{ red: "twitter", link: "https://twitter.com/guillersmith5" },
+            //{ red: "instagram", link: "https://instagram.com/jorge.kogan" },
+            //{ red: "facebook", link: "https://www.facebook.com/guillermo.smith.77" },
+        ],
+        pagina: "../pages/referentes/marcos-gomez.html",
+        foto: "../img/referentes/marcos-gomez_cuadrado.jpg",
+        foto1: "../img/referentes/marcos-gomez.jpg",
+        sexo: 'H'
+    },
+    {
+        id: 34,
+        nombre: "María",
+        apellido: "Bianchi",
+        redesSociales: [
+            { red: "twitter", link: "https://twitter.com/merybiaok" },
+            { red: "instagram", link: "https://instagram.com/merybiaok" },
+            //{ red: "facebook", link: "https://www.facebook.com/guillermo.smith.77" },
+        ],
+        pagina: "../pages/referentes/mery-bianchi.html",
+        foto: "../img/referentes/mery-bianchi_cuadrado.jpg",
+        foto1: "../img/referentes/mery-bianchi.jpg",
+        sexo: 'M'
+    },
+    {
+        id: 35,
+        nombre: "Miguel Alfredo",
+        apellido: "Abrain",
+        redesSociales: [
+            //{ red: "twitter", link: "https://twitter.com/merybiaok" },
+            //{ red: "instagram", link: "https://instagram.com/merybiaok" },
+            //{ red: "facebook", link: "https://www.facebook.com/guillermo.smith.77" },
+        ],
+        pagina: "../pages/referentes/miguel-abrain.html",
+        foto: "../img/referentes/miguel-abrain_cuadrado.jpg",
+        foto1: "../img/referentes/miguel-abrain.jpg",
+        sexo: 'H'
+    },
 ];
 
 let staffes = [
