@@ -286,16 +286,17 @@ let referentes = [
     },
     {
         id: 22,
-        nombre: "Maria",
-        apellido: "De Piano",
+        nombre: "Beatriz",
+        apellido: "Albertelli",
         redesSociales: [
-            { red: "twitter", link: "https://twitter.com/Mdepiano1" },
-            { red: "linkedin", link: "https://www.linkedin.com/in/mdepiano" },
-            //{ red: "facebook", link: "https://www.facebook.com/gus.rse" },
+            { red: "twitter", link: "https://twitter.com/beatrizalberte1" },
+            { red: "linkedin", link: "https://www.linkedin.com/in/beatriz-albertelli-5149b79" },
+            { red: "instagram", link: "https://www.instagram.com/beatrizalbertelli/" },
+            { red: "facebook", link: "https://www.facebook.com/beatriz.albertelli" },
         ],
-        pagina: "../pages/referentes/maria-de-piano.html",
-        foto: "../img/referentes/maria-de-piano_cuadrado.jpg",
-        foto1: "../img/referentes/maria-de-piano.jpg",
+        pagina: "../pages/referentes/beatriz-albertelli.html",
+        foto: "../img/referentes/beatriz-albertelli_cuadrado.jpg",
+        foto1: "../img/referentes/beatriz-albertelli.jpg",
         sexo: 'M'
     },
     {
@@ -443,8 +444,8 @@ let referentes = [
         nombre: "Marcos",
         apellido: "Gomez",
         redesSociales: [
-            //{ red: "twitter", link: "https://twitter.com/guillersmith5" },
-            //{ red: "instagram", link: "https://instagram.com/jorge.kogan" },
+            { red: "twitter", link: "https://twitter.com/TaxNews4D" },
+            { red: "linkedin", link: "https://instagram.com/marcosgomezmartin" },
             //{ red: "facebook", link: "https://www.facebook.com/guillermo.smith.77" },
         ],
         pagina: "../pages/referentes/marcos-gomez.html",
@@ -480,6 +481,64 @@ let referentes = [
         foto1: "../img/referentes/miguel-abrain.jpg",
         sexo: 'H'
     },
+    {
+        id: 36,
+        nombre: "Guillermo",
+        apellido: "Arancibia",
+        redesSociales: [
+            //{ red: "twitter", link: "https://twitter.com/merybiaok" },
+            //{ red: "instagram", link: "https://instagram.com/merybiaok" },
+            //{ red: "facebook", link: "https://www.facebook.com/guillermo.smith.77" },
+        ],
+        pagina: "../pages/referentes/guillermo-arancibia.html",
+        foto: "../img/referentes/guillermo-arancibia_cuadrado.jpg",
+        foto1: "../img/referentes/guillermo-arancibia.jpg",
+        sexo: 'H'
+    },
+    {
+        id: 37,
+        nombre: "Maria Rosa",
+        apellido: "Davagnino",
+        redesSociales: [
+            //{ red: "twitter", link: "https://twitter.com/merybiaok" },
+            { red: "instagram", link: "https://instagram.com/mdavagnino" },
+            { red: "facebook", link: "https://www.facebook.com/mariarosa.davagnino" },
+        ],
+        pagina: "../pages/referentes/maria-rosa-davagnino.html",
+        foto: "../img/referentes/maria-rosa-davagnino_cuadrado.jpg",
+        foto1: "../img/referentes/maria-rosa-davagnino.jpg",
+        sexo: 'M'
+    },
+    {
+        id: 37,
+        nombre: "Raul",
+        apellido: "Biancardi",
+        redesSociales: [
+            { red: "twitter", link: "https://twitter.com/Raul_Biancardi" },
+            { red: "linkedin", link: "https://twitter.com/Raul_Biancardi" },
+            { red: "instagram", link: "https://instagram.com/raulbiancardi" },
+            { red: "facebook", link: "https://www.facebook.com/biancardiraul" },
+        ],
+        pagina: "../pages/referentes/raul-biancardi.html",
+        foto: "../img/referentes/raul-biancardi_cuadrado.jpg",
+        foto1: "../img/referentes/raul-biancardi.jpg",
+        sexo: 'H'
+    },
+/*{
+id: 22,
+nombre: "Maria",
+apellido: "De Piano",
+redesSociales: [
+    { red: "twitter", link: "https://twitter.com/Mdepiano1" },
+    { red: "linkedin", link: "https://www.linkedin.com/in/mdepiano" },
+    //{ red: "facebook", link: "https://www.facebook.com/gus.rse" },
+],
+pagina: "../pages/referentes/maria-de-piano.html",
+foto: "../img/referentes/maria-de-piano_cuadrado.jpg",
+foto1: "../img/referentes/maria-de-piano.jpg",
+sexo: 'M'
+},*/
+
 ];
 
 let staffes = [
