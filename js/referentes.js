@@ -510,7 +510,7 @@ let referentes = [
         sexo: 'M'
     },
     {
-        id: 37,
+        id: 38,
         nombre: "Raul",
         apellido: "Biancardi",
         redesSociales: [
@@ -522,6 +522,19 @@ let referentes = [
         pagina: "../pages/referentes/raul-biancardi.html",
         foto: "../img/referentes/raul-biancardi_cuadrado.jpg",
         foto1: "../img/referentes/raul-biancardi.jpg",
+        sexo: 'H'
+    },
+    {
+        id: 39,
+        nombre: "Javier",
+        apellido: "Romano",
+        redesSociales: [
+            { red: "twitter", link: "https://twitter.com/JavierRomanoOk" },
+            { red: "instagram", link: "https://instagram.com/javi_romanoo" },
+        ],
+        pagina: "../pages/referentes/javier-romano.html",
+        foto: "../img/referentes/javier-romano_cuadrado.jpg",
+        foto1: "../img/referentes/javier-romano.jpg",
         sexo: 'H'
     },
 /*{
