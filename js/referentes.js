@@ -537,6 +537,57 @@ let referentes = [
         foto1: "../img/referentes/javier-romano.jpg",
         sexo: 'H'
     },
+    {
+        id: 40,
+        nombre: "Nicolas",
+        apellido: "Silvera",
+        redesSociales: [
+            { red: "twitter", link: "https://twitter.com/OkeyNico" },
+            { red: "instagram", link: "https://instagram.com/nico.okey" },
+        ],
+        pagina: "../pages/referentes/nico-silvera.html",
+        foto: "../img/referentes/nico-silvera_cuadrado.jpg",
+        foto1: "../img/referentes/nico-silvera.jpg",
+        sexo: 'H'
+    },
+    {
+        id: 41,
+        nombre: "Abril",
+        apellido: "Fernandez Soto",
+        redesSociales: [
+            { red: "twitter", link: "https://twitter.com/abriifer" },
+            { red: "instagram", link: "https://instagram.com/abryfer" },
+        ],
+        pagina: "../pages/referentes/abril-fernandez.html",
+        foto: "../img/referentes/abril-fernandez_cuadrado.jpg",
+        foto1: "../img/referentes/abril-fernandez.jpg",
+        sexo: 'M'
+    },
+    {
+        id: 42,
+        nombre: "Ciro Andres",
+        apellido: "Patiño",
+        redesSociales: [
+            { red: "twitter", link: "https://twitter.com/Ciro_apsLib" },
+            { red: "instagram", link: "https://instagram.com/ciro_aps" },
+        ],
+        pagina: "../pages/referentes/ciro-patino.html",
+        foto: "../img/referentes/ciro-patino_cuadrado.jpg",
+        foto1: "../img/referentes/ciro-patino.jpg",
+        sexo: 'H'
+    },
+    {
+        id: 43,
+        nombre: "Florencia",
+        apellido: "Ravelo Niglia",
+        redesSociales: [
+            { red: "instagram", link: "https://instagram.com/fflorenciaravelo" },
+        ],
+        pagina: "../pages/referentes/florencia-ravelo.html",
+        foto: "../img/referentes/florencia-ravelo_cuadrado.jpg",
+        foto1: "../img/referentes/florencia-ravelo.jpg",
+        sexo: 'M'
+    },
 /*{
 id: 22,
 nombre: "Maria",
