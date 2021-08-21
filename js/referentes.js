@@ -18,7 +18,11 @@ let referentes = [
         nombre: "Marina",
         apellido: "Kienast",
         redesSociales: [
-            { red: "twitter", link: "https://twitter.com/markienast1" },
+            { red: "twitter", link: "https://twitter.com/kienast_marina" },
+            { red: "instagram", link: "https://instagram.com/kienast_marina" },
+            { red: "facebook", link: "https://facebook.com/marinakienast" },
+            { red: "linkedin", link: "https://www.linkedin.com/in/marina-kienast-301577184/" },
+            { red: "globe", link: "https://www.marinakienast.com.ar" },
         ],
         pagina: "../pages/referentes/marina-kienast.html",
         foto: "../img/referentes/marina_cuadrado.jpg",
