@@ -120,19 +120,6 @@ let referentes = [
         sexo: 'H'
     },
     {
-        id: 9,
-        nombre: "Miguel",
-        apellido: "Boggiano",
-        redesSociales: [
-            { red: "twitter", link: "https://twitter.com/miguel_boggiano" },
-            { red: "instagram", link: "https://instagram.com/miguel_boggiano" },
-        ],
-        pagina: "../pages/referentes/miguel-boggiano.html",
-        foto: "../img/referentes/boggiano_cuadrado.png",
-        foto1: "../img/referentes/boggiano.jpg",
-        sexo: 'H'
-    },
-    {
         id: 10,
         nombre: "Rodrigo",
         apellido: "López Guerra",
@@ -605,7 +592,20 @@ pagina: "../pages/referentes/maria-de-piano.html",
 foto: "../img/referentes/maria-de-piano_cuadrado.jpg",
 foto1: "../img/referentes/maria-de-piano.jpg",
 sexo: 'M'
-},*/
+},
+    {
+        id: 9,
+        nombre: "Miguel",
+        apellido: "Boggiano",
+        redesSociales: [
+            { red: "twitter", link: "https://twitter.com/miguel_boggiano" },
+            { red: "instagram", link: "https://instagram.com/miguel_boggiano" },
+        ],
+        pagina: "../pages/referentes/miguel-boggiano.html",
+        foto: "../img/referentes/boggiano_cuadrado.png",
+        foto1: "../img/referentes/boggiano.jpg",
+        sexo: 'H'
+    },*/
 
 ];
 
